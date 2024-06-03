@@ -1,5 +1,6 @@
 <div class="container-fluid">
     <h1 class="dash-title">Trang chủ / Tài khoản</h1>
+    <?= view('messages/message'); ?>
     <div class="row">
         <div class="col-lg-12">
             <div class="card easion-card">
@@ -27,7 +28,7 @@
                                     <td><?= $user['email'] ?></td>
                                     <td class="text-center">
                                         <a href="admin/user/edit/<?= $user['id'] ?>" class="btn btn-primary"><i class="fas fa-edit"></i></a>
-                                        <a data-url="" class="btn btn-danger btn-del-confirm"><i class="far fa-trash-alt"></i></a>
+                                        <a data-url="<?= base_url() ?>/admin/user/delete/<?= $user['id'] ?>" class="btn btn-danger btn-del-confirm"><i class="far fa-trash-alt"></i></a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>

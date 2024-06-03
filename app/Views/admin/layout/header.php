@@ -11,7 +11,7 @@
         <input type="text" class="searchbox-input" placeholder="Nhập thông tin tìm kiếm">
     </form>
     <div class="tools">
-        <a href="https://www.youtube.com/channel/UCwBHZqLqgZUTWLLaQLfoJ1g?sub_confirmation=1" target="_blank" class="tools-item">
+        <a href="https://www.youtube.com" target="_blank" class="tools-item">
             <i class="fab fa-youtube"></i>
         </a>
         <a href="javascript::void()" class="tools-item">
