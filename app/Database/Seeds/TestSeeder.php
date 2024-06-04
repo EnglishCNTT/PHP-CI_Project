@@ -9,5 +9,6 @@ class TestSeeder extends Seeder
     public function run()
     {
         $this->call('UserSeeder');
+        $this->call('PurchaseSeeder');
     }
 }

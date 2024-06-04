@@ -20,8 +20,8 @@
             <a href="javascript::void(0)" class="dash-nav-item dash-nav-dropdown-toggle">
                 <i class="fas fa-cube"></i> Gói dịch vụ </a>
             <div class="dash-nav-dropdown-menu">
-                <a href="purchase-list.html" class="dash-nav-dropdown-item">Danh sách</a>
-                <a href="purchase-add.html" class="dash-nav-dropdown-item">Thêm mới</a>
+                <a href="admin/purchase/list" class="dash-nav-dropdown-item">Danh sách</a>
+                <a href="admin/purchase/add" class="dash-nav-dropdown-item">Thêm mới</a>
             </div>
         </div>
         <div class="dash-nav-dropdown">
@@ -32,7 +32,7 @@
                 <a href="comment-add.html" class="dash-nav-dropdown-item">Thêm mới</a>
             </div>
         </div>
-        <a href="contacts.html" class="dash-nav-item">
+        <a href="admin/contact/list" class="dash-nav-item">
             <i class="fas fa-info"></i>Liên hệ
         </a>
     </nav>
